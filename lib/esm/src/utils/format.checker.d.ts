@@ -1,0 +1,9 @@
+export declare const isSet: <O>(obj: O | null | undefined) => obj is O;
+export declare const isNotSet: <O>(obj: O | null | undefined) => obj is null | undefined;
+export declare const isAry: <A>(ary: any[] | A) => ary is any[];
+export declare const isEmptyArray: (ary: any) => boolean;
+export declare const isNotEmptyArray: (ary: any) => boolean;
+export declare const isString: <O>(str: string | O) => str is string;
+export declare const isEmptyString: (str: any) => boolean;
+export declare const isTrue: <B>(boolean: boolean | B) => boolean is true;
+export declare const isFalse: <B>(boolean: boolean | B) => boolean is false;
